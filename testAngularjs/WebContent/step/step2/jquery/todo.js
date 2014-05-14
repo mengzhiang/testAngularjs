@@ -52,7 +52,7 @@ $(function() {
                                         $(this).remove();
                                         all = all - 1;
                                         $("#count-all").text(all);
-                                        $("#count-remaining").text(0);
+                                        $("#count-remaining").text(all);
                                     }
                                 });
                         return false;
